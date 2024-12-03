@@ -2,15 +2,11 @@
 
 This project utilizes the **MAX30100 Pulse Oximeter** sensor to measure heart rate (bpm) and blood oxygen saturation (SpO2) levels in real-time. The code interfaces the sensor with an Arduino through I2C communication and displays the data on the serial monitor. It also detects individual heartbeats and logs them.
 
----
-
 ## Features
 - **Real-Time Heart Rate Monitoring**: Measures heartbeats per minute (bpm).
 - **Blood Oxygen Saturation (SpO2)**: Monitors the percentage of oxygenated hemoglobin in the blood.
 - **Beat Detection**: Outputs "Beat!" on the serial monitor for each detected heartbeat.
 - **Compact and Efficient**: Periodically reports readings every second for smooth monitoring.
-
----
 
 ## Hardware Requirements
 - **MAX30100 Pulse Oximeter Sensor**
@@ -18,12 +14,9 @@ This project utilizes the **MAX30100 Pulse Oximeter** sensor to measure heart ra
 - **Jumper Wires**
 - **Power Source**
 
----
-
 ## Libraries Used
 - [`MAX30100_PulseOximeter`](https://github.com/oxullo/Arduino-MAX30100)
 
----
 
 ## Wiring Configuration
 | MAX30100 Pin | Arduino Pin  |
@@ -33,7 +26,6 @@ This project utilizes the **MAX30100 Pulse Oximeter** sensor to measure heart ra
 | SDA          | A4 (I2C Data)|
 | SCL          | A5 (I2C Clock)|
 
----
 
 ## Setup Instructions
 1. **Install Libraries**:
